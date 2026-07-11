@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benefit Treino — Documentos legais</title>
+<meta name="description" content="Política de Privacidade e Termos de Uso do aplicativo Benefit Treino.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1c1e;
+    --muted: #5f6368;
+    --line: #e3e5e8;
+    --accent: #1c6c3c;
+    --card: #f7f8f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111315;
+      --fg: #e6e8ea;
+      --muted: #9aa0a6;
+      --line: #2a2e31;
+      --accent: #6fd39b;
+      --card: #1a1d1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.35rem;
+  }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; }
+  .card {
+    display: block;
+    padding: 1.15rem 1.25rem;
+    margin-bottom: 0.9rem;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card strong { display: block; font-size: 1.05rem; margin-bottom: 0.15rem; }
+  .card span { color: var(--muted); font-size: 0.92rem; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  a.mail { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="logo">Benefit Treino</h1>
+  <p class="sub">Aplicativo de registro e acompanhamento de treinos.</p>
+
+  <a class="card" href="privacidade/">
+    <strong>Política de Privacidade</strong>
+    <span>Quais dados o aplicativo trata, como e por quê.</span>
+  </a>
+
+  <a class="card" href="termos/">
+    <strong>Termos de Uso</strong>
+    <span>Condições de utilização do aplicativo.</span>
+  </a>
+
+  <footer>
+    Contato: <a class="mail" href="mailto:benefittreino@gmail.com">benefittreino@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
